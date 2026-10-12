@@ -1,0 +1,170 @@
+# ==========================================================
+# SISTEMAS OPERATIVOS
+# ==========================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# ==========================================================
+# EDITORES E IDE
+# ==========================================================
+.vscode/
+.idea/
+*.iml
+
+# ==========================================================
+# PYTHON
+# ==========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución y empaquetado
+build/
+dist/
+wheels/
+*.egg
+*.egg-info/
+.eggs/
+
+# Entornos virtuales Python y uv
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+__pypackages__/
+
+# Cachés Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# Cobertura y pruebas
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+test-results/
+junit.xml
+
+# ==========================================================
+# UV
+# ==========================================================
+# Se conserva uv.lock para reproducir dependencias.
+# Se conserva pyproject.toml.
+.uv_cache/
+uv-cache/
+
+# ==========================================================
+# FASTAPI
+# ==========================================================
+logs/
+log/
+*.log
+*.pid
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos locales de usuarios
+uploads/
+media/
+
+# ==========================================================
+# NODE.JS
+# ==========================================================
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cachés
+.npm/
+.pnpm-store/
+.nyc_output/
+coverage/
+
+# Archivos TypeScript generados
+*.tsbuildinfo
+
+# ==========================================================
+# ANGULAR
+# ==========================================================
+.angular/
+dist/
+out/
+
+# Estadísticas de compilación
+stats.json
+
+# ==========================================================
+# VARIABLES DE ENTORNO Y SECRETOS
+# ==========================================================
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Credenciales
+secrets/
+credentials/
+*.secret
+*.secrets
+
+# Certificados y claves privadas
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ==========================================================
+# BASES DE DATOS Y DATOS LOCALES
+# ==========================================================
+*.bak
+*.backup
+*.dump
+
+local_data/
+
+# ==========================================================
+# DOCKER
+# ==========================================================
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+
+# ==========================================================
+# ARCHIVOS TEMPORALES
+# ==========================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*.rej
+*.old
+
+# ==========================================================
+# CACHÉS Y REPORTES
+# ==========================================================
+.cache/
+.cache-*/
+tmp/
+temp/
+reports/
